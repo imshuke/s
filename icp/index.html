@@ -2,13 +2,13 @@
 <html lang="zh-cn">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title id="title">{title}</title>
+    <title id="title"></title>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/imsgj/static/icp.css">
 </head>
 <body>
 <section class="page-header">
-    <h1 class="project-name" id="url">{url}</h1>
+    <h1 class="project-name" id="url"></h1>
     <h2 class="project-tagline">网站正在建设</h2>
 </section>
 <section class="main-content">
@@ -20,20 +20,25 @@
             </p>
         </div>
     </div>
-</section>
-<section class="site-footer">
-    <p>备案号：<a href="http://beian.miit.gov.cn/" target="_blank" id='icp'>{icp}</a><br/></p>
-    <p id="ga"></p>
+    <footer class="site-footer">
+        <p>备案号：<a href="http://beian.miit.gov.cn/" target="_blank" id='icp'></a><br/></p>
+        <p id="ga"></p>
+    </footer>
 </section>
 </body>
 <script>
-    let info = {info}
+    let info = {
+        'title': '健康快乐每一天',
+        'url': '066066.xyz',
+        'icp': '鄂ICP备2021019576号-1',
+        'gaurl': '12',
+        'ga_number': '12'
+    }
     document.getElementById('title').innerHTML = info['title'];
     document.getElementById('url').innerHTML = info['url'];
     document.getElementById('icp').innerHTML = info['icp'];
     if (info['gaurl'] && info['ga_number']) {
         document.getElementById('ga').innerHTML = '公安备案：<img src="https://cdn.jsdelivr.net/gh/imsgj/static/icp/policebeian.png" alt="公安备案"> <a href="' + info['gaurl'] + '" target="_blank">' + info['ga_number'] + '</a><br/>';
-
     }
 </script>
 </html>
