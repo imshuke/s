@@ -1,31 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cn">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>健康快乐每一天</title>
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/imsgj/static/icp.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>{title}</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/imsgj/static/icp.css">
 </head>
 <body>
 <section class="page-header">
-<h1 class="project-name">066066.xyz</h1>
-<h2 class="project-tagline">网站正在建设</h2>
+    <h1 class="project-name">{url}</h1>
+    <h2 class="project-tagline">网站正在建设</h2>
 </section>
 <section class="main-content">
-<div>
-<h1><a href="#header-info"></a>网站正在建设</h1>
-<div>
-<p>本页面为网站临时主页，网站还在建设完善中，敬请关注。<br/>
-<br/>
-</p>
-</div>
-</div>
-<footer class="site-footer">
+    <div>
+        <h1>网站正在建设</h1>
+        <div>
+            <p>本页面为网站临时主页，网站还在建设完善中，敬请关注。<br/>
+                <br/>
+            </p>
+        </div>
+    </div>
+    <footer class="site-footer">
 <span class="site-footer-owner">
-备案号：<a href="http://beian.miit.gov.cn/" target="_blank">鄂ICP备2021019576号-1</a><br/>
-<!-- 公安备案：<a target="_blank" href="" style="display:inline-block;text-decoration:none;height:20px;line-height:20px">正在申请</a>  -->
+    备案号：<a href="http://beian.miit.gov.cn/" target="_blank">{icp}</a><br/>
+    <!--    公安备案：<img src="https://cdn.jsdelivr.net/gh/imsgj/static/icp/policebeian.png" alt="公安备案"> <a href="http://beian.miit.gov.cn/" target="_blank">{ga}</a><br/>-->
+
 </span>
-</footer>
+    </footer>
 </section>
 </body>
 </html>
