@@ -18,6 +18,6 @@ def main(event, context):
         'headers': {
             'content-type': 'text/html'
         },
-        'body': requests.get('https://raw.githubusercontent.com/imsgj/static/main/icp/index.html').text.format(info=json.dumps(info))
+        'body': requests.get('https://cdn.jsdelivr.net/gh/imsgj/static@main/icp/index.html').text.format(info=json.dumps(info))
     }
 ```
