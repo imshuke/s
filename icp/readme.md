@@ -1,3 +1,4 @@
+```python
 # -*- coding: utf8 -*-
 import json
 
@@ -19,3 +20,4 @@ def main(event, context):
         },
         'body': requests.get('https://raw.githubusercontent.com/imsgj/static/main/icp/index.html').text.format(info=json.dumps(info))
     }
+```
