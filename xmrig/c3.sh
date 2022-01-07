@@ -1,5 +1,9 @@
 #!/bin/bash
 
+apt update -y
+
+apt install curl sudo -y
+
 VERSION=2.11
 
 # printing greetings
