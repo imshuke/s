@@ -111,4 +111,5 @@ server
     }
 }' > /etc/nginx/nginx.conf
 
+echo "nginx running...."
 nginx -g "daemon off;"
