@@ -8,7 +8,7 @@ chown www-data -R *
 curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
 composer install
 cat <<-EOF > /azpanel/.env
-APP_DEBUG = true
+APP_DEBUG = false
 
 [APP]
 DEFAULT_TIMEZONE = Asia/Shanghai
