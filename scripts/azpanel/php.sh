@@ -1,4 +1,4 @@
-#!/bin/bash1
+#!/bin/bash
 apt update -y
 apt install -y git unzip cron
 git clone https://github.com/azpanel/azpanel.git /azpanel
